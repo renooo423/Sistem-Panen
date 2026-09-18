@@ -1,2 +1,4 @@
-mkdir sistem-panen
-cd sistem-panen
+def hitung_total_panen(jumlah, harga):
+    return jumlah * harga
+
+print(f"Total panen: Rp{hitung_total_panen(100, 5000)}")
